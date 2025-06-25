@@ -1,43 +1,78 @@
 import { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg bg-white py-3">
-        <div class="container">
-          <a class="navbar-brand fs-3 fw-bold me-5" href="#">
+      <nav className="navbar navbar-expand-lg bg-white py-3">
+        <div className="container">
+          <a className="navbar-brand fs-3 fw-bold me-5" href="#">
             <img src="./main-logo.png" alt="" />
           </a>
 
-          <div class="collapse navbar-collapse">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item me-4">
-                <a class="nav-link fw-medium" href="#">
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav me-auto">
+              <li className="nav-item me-4">
+                <a className="nav-link fw-medium" href="#">
                   HOME
                 </a>
               </li>
-              <li class="nav-item me-4">
-                <a class="nav-link fw-medium" href="#">
+              <li className="nav-item me-4">
+                <a className="nav-link fw-medium" href="#">
                   ABOUT
                 </a>
               </li>
-              <li class="nav-item me-4">
-                <a class="nav-link fw-medium" href="#">
+              <li className="nav-item me-4">
+                <a className="nav-link fw-medium" href="#">
                   SHOP
                 </a>
               </li>
-              <li class="nav-item me-4">
-                <a class="nav-link fw-medium" href="#">
+              <li className="nav-item me-4">
+                <a className="nav-link fw-medium" href="#">
                   BLOGS
                 </a>
               </li>
-              <li class="nav-item me-4">
-                <a class="nav-link fw-medium" href="#">
+
+              <li className="nav-item dropdown me-4">
+                <a
+                  className="nav-link dropdown-toggle fw-medium"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   PAGES
                 </a>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="#">HOME</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">ABOUT</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">SHOP</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">BLOGS</a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">CONTACT</a>
+                  </li>
+                </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link fw-medium" href="#">
+
+              <li className="nav-item">
+                <a className="nav-link fw-medium" href="#">
                   CONTACT
                 </a>
               </li>
