@@ -20,7 +20,7 @@ export const Body = () => {
                     <h1 className="display-4 mb-3 mb-md-4">
                       The Fine Print Book Collection
                     </h1>
-                    <p className="text-muted mb-3 mb-md-4">Grab it now!</p>
+                    <p className="text-muted mb-3 mb-md-4">Best Offer Save 30%.Grab it now!</p>
                     <button className="btn btn-dark btn-lg px-4 py-2">
                       Shop Collection
                     </button>
