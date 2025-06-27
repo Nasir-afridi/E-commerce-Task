@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Body from './components/Body'
 import { Category } from "./components/Category";
+import { BestSell } from "./components/BestSell";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Body />
       <Category></Category>
+      <BestSell></BestSell>
     </>
   );
 }
