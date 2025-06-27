@@ -2,7 +2,7 @@ import React from "react";
 
 export const CustomerReview = () => {
   return (
-    <section class="py-5 bg-secondary">
+    <section class="py-5 bg-secondary mt-5">
       <div class="container">
         <h2 class="text-center mb-5 pb-3 text-light">Customers Reviews</h2>
 
