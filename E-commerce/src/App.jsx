@@ -12,12 +12,12 @@ function App() {
     <>
       <Navbar />
       <Body />
-      <Category></Category>
-      <BestSell></BestSell>
-      <DiscountSection></DiscountSection>
-      <BookListing></BookListing>
-      <Categories></Categories>
-      <CustomerReview></CustomerReview>
+      <Category/>
+      <BestSell/>
+      <DiscountSection/>
+      <BookListing />
+      <Categories />
+      <CustomerReview />
       
     </>
   );
