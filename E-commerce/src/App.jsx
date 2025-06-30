@@ -4,6 +4,7 @@ import { Category } from "./components/Category";
 import { BestSell } from "./components/BestSell";
 import { CustomerReview } from "./components/CustomerReview";
 import { DiscountSection } from "./components/DiscountSection";
+import { BookListing } from "./components/BookListing";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <BestSell></BestSell>
       <DiscountSection></DiscountSection>
       <CustomerReview></CustomerReview>
+      <BookListing></BookListing>
     </>
   );
 }
