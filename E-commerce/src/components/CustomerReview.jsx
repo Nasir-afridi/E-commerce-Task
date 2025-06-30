@@ -137,7 +137,7 @@ export const CustomerReview = () => {
           </div>
 
           <button
-            classNameName="carousel-control-prev"
+            className="carousel-control-prev"
             type="button"
             data-bs-target="#reviewCarousel"
             data-bs-slide="prev"
@@ -161,11 +161,11 @@ export const CustomerReview = () => {
                 filter: "drop-shadow(0 0 2px rgba(0,0,0,0.5))",
               }}
             ></span>
-            <span classNameName="visually-hidden">Previous</span>
+            <span className="visually-hidden">Previous</span>
           </button>
 
           <button
-            classNameName="carousel-control-next"
+            className="carousel-control-next"
             type="button"
             data-bs-target="#reviewCarousel"
             data-bs-slide="next"
@@ -181,7 +181,7 @@ export const CustomerReview = () => {
             }}
           >
             <span
-              classNameName="carousel-control-next-icon"
+              className="carousel-control-next-icon"
               aria-hidden="true"
               style={{
                 width: "1.5rem",
@@ -189,7 +189,7 @@ export const CustomerReview = () => {
                 filter: "drop-shadow(0 0 2px rgba(0,0,0,0.5))",
               }}
             ></span>
-            <span classNameName="visually-hidden">Next</span>
+            <span className="visually-hidden">Next</span>
           </button>
         </div>
       </div>
