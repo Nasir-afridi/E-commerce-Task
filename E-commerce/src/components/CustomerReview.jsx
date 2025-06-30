@@ -153,7 +153,7 @@ export const CustomerReview = () => {
             }}
           >
             <span
-              classNameName="carousel-control-prev-icon"
+              className="carousel-control-prev-icon"
               aria-hidden="true"
               style={{
                 width: "1.5rem",
