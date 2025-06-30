@@ -7,7 +7,6 @@ export const Categories = () => {
       <h3 className="mb-4">Categories</h3>
 
       <div className="row g-4">
-        {/* Card 1 */}
         <div className="col-12 col-sm-6 col-lg-4">
           <div className="position-relative rounded overflow-hidden">
             <img
@@ -22,7 +21,6 @@ export const Categories = () => {
           </div>
         </div>
 
-        {/* Card 2 */}
         <div className="col-12 col-sm-6 col-lg-4">
           <div className="position-relative rounded overflow-hidden">
             <img
@@ -37,7 +35,6 @@ export const Categories = () => {
           </div>
         </div>
 
-        {/* Card 3 */}
         <div className="col-12 col-sm-6 col-lg-4">
           <div className="position-relative rounded overflow-hidden">
             <img
