@@ -6,6 +6,7 @@ import { CustomerReview } from "./components/CustomerReview";
 import { DiscountSection } from "./components/DiscountSection";
 import { BookListing } from "./components/BookListing";
 import { Categories } from "./components/Categories";
+import LatestPosts from "./components/LatestPost";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       <BookListing />
       <Categories />
       <CustomerReview />
-      
+      <LatestPosts />   
     </>
   );
 }
