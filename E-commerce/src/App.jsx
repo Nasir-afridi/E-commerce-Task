@@ -8,6 +8,7 @@ import { BookListing } from "./components/BookListing";
 import { Categories } from "./components/Categories";
 import LatestPosts from "./components/LatestPost";
 import InstagramSection from "./components/InstagramSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <CustomerReview />
       <LatestPosts />   
       <InstagramSection />
+      <Footer />
     </>
   );
 }
