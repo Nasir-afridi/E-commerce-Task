@@ -7,6 +7,7 @@ import { DiscountSection } from "./components/DiscountSection";
 import { BookListing } from "./components/BookListing";
 import { Categories } from "./components/Categories";
 import LatestPosts from "./components/LatestPost";
+import InstagramSection from "./components/InstagramSection";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Categories />
       <CustomerReview />
       <LatestPosts />   
+      <InstagramSection />
     </>
   );
 }
